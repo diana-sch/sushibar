@@ -1,0 +1,63 @@
+* {
+  font-family: calibri;
+}
+
+#wrapper {
+    width: 800px;
+    overflow: hidden;
+    margin: auto;
+}
+  
+#first {
+    width: 500px;
+    float:left;
+    background-color: lightslategray;
+}
+
+#second {
+    background-color: lightyellow;
+    overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: calibri;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+}
+
+button, input {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#parentdiv {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+    border-radius: 150px;
+    margin: 150px;
+  }
+  
+.div2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100px;
+    border: 1px solid black;
+  }

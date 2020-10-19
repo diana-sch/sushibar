@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>sushibar</title>
+        <link rel="stylesheet" href="bar.css">
+    </head>
+    <body>
+        <h1>Sushibar</h1>
+        <div id="wrapper">
+          <div id="first">
+            <input type="number" min="1" name="name" id="tableSize" value="" placeholder="set number of seats"/>
+            <button id="setSize" alt="set number of seats" onclick="setSize()">set size</button>
+
+            <input type="number" name="name" id="groups" value="" min="1" placeholder="type size of the group"/>
+            <button onclick="newGroup()">add group</button>
+
+            <input type="number" name="name" id="groupId" value="" min="1" placeholder="type group id to remove it"/>
+            <button id="remove" onclick="deleteGroup()">remove</button>
+
+            <div id="parentdiv"></div>
+          </div>
+          <div id="second">
+            <ul id="groupList"></ul>
+          </div>
+        </div>
+
+        <script src="main.js" async defer></script>
+        <script src="gui-functions.js" async defer></script>
+    </body>
+</html>
